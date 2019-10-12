@@ -1,0 +1,25 @@
+img{
+max-width: 300px;
+border: 30px teal solid;
+
+}
+
+body{
+    background-color: rgb(156,255,250);
+}
+
+h1{
+font-size: 100px;
+padding: 40px;
+margin: 50px;
+}
+
+.container {
+    padding-right: 50px;
+    padding-left: 50px;
+    margin: 100px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Pacifico', cursive;
+}
