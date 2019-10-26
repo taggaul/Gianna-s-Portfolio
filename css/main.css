@@ -23,3 +23,48 @@ margin: 50px;
 h1, h2, h3, h4, h5, h6{
     font-family: 'Pacifico', cursive;
 }
+
+.display-none {
+    display: none
+}
+
+button:hover {
+    color: #92fff6;
+    background-color: black;
+}
+
+
+nav {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+a {
+    color: lightskyblue;
+text-decoration: none;
+}
+
+
+.padded {
+    padding: 20px;
+}
+
+
+.display-none {
+    display: none
+}
+
+
+button {
+    padding: 0px 20px;
+    font-size: 18px;
+    background: 
+    border-radius: 1px 100px;
+    border: 2px solid black;
+    cursor: pointer;
+    margin: 15px
+    
+
+}

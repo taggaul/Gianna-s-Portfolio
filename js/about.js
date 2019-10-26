@@ -13,11 +13,21 @@ WHEN tap (or click) THEN toggleText
 
 */
 function toggleText(event) {
-    if (event.target.parentNode.children[1].style.display === ""){
+    if (event.target.parentNode.children[1].style.display === "block"){
         event.target.parentNode.children[1].style.display = "none"
     }
     else {
-        event.target.parentNode.children[1].style.display = ""
+        event.target.parentNode.children[1].style.display = "block"
     }
     // event.target.parentNode.children[1].style.display = "none";    
 }
+
+function toggleButton(event) {
+    const text = event.target.parentNode.children(1);
+    console.log(text.style.display)
+    if (text.style.display === "none" || text.style.display) {
+        text.style.display = "block";
+    } else {
+        text.style.display = "none";
+    }
+ }
