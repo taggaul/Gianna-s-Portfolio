@@ -32,7 +32,7 @@ h2 {
     border: 2px solid rgba(0, 0, 0, .75);
     background: url("https://i.pinimg.com/originals/f6/8c/9c/f68c9c2b2d5a5576a9e2e02bf1461b88.jpg");
     background-size: cover;
-    cursor: progress;
+    cursor: wait;
     height: 140px;
     width: 140px;
     font-size: 80px;
@@ -40,7 +40,11 @@ h2 {
     align-items: center;
     justify-content: center;
     color: rgb(255, 0, 0);
+}
 
+.square:hover {
+    background-blend-mode: luminosity;
+    background-color: white;
 }
 
 #reset-button {
@@ -52,3 +56,13 @@ h2 {
     margin: 10px;
 }
 
+nav {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+ul, li {
+    list-style: none;
+    list-style-type: none;
+}
